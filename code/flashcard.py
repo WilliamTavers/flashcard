@@ -9,7 +9,7 @@ class FlashcardApp:
         self.root = root
         self.root.title("Flashcards")
         self.root.geometry("800x600")
-        self.root.config(bg="#ffffff")  # Change the whole app background to white
+        self.root.config(bg="#ffffff") 
 
         # Flashcard data
         self.flashcards = []
@@ -22,7 +22,7 @@ class FlashcardApp:
             self.root.tk.call('tk', 'scaling', 2.0)
 
         # Create a main frame to hold all widgets, center it with pack
-        self.main_frame = tk.Frame(self.root, bg="#ffffff")  # Main frame background also white
+        self.main_frame = tk.Frame(self.root, bg="#ffffff")  
         self.main_frame.pack(expand=True, anchor="center")
 
         # Flashcard display area (like a card)
